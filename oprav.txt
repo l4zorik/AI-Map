@@ -1,0 +1,13 @@
+[vite] Internal server error: Failed to load PostCSS config (searchPath: E:/VS Projekty/AIMap/client): [ReferenceError] module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\VS Projekty\AIMap\client\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to 
+use the '.cjs' file extension.
+ReferenceError: module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'E:\VS Projekty\AIMap\client\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to 
+use the '.cjs' file extension.
+    at file:///E:/VS%20Projekty/AIMap/client/postcss.config.js?t=1755800642845:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:327:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:663:26)
+    at async req$3 (file:///E:/VS%20Projekty/AIMap/client/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:8511:12)
+    at async Object.search (file:///E:/VS%20Projekty/AIMap/client/node_modules/vite/dist/node/chunks/dep-Bj7gA1-0.js:8321:24)
+  Plugin: vite:css
+  File: E:/VS Projekty/AIMap/client/src/index.css
